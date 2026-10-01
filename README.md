@@ -161,10 +161,10 @@ Based on the segment characteristics, the following strategies are recommended:
 
 | Aspect | Cluster 0 (Mass) | Cluster 1 (Elite) |
 |---|---|---|
-| ** Marketing** | Flash sales, discount campaigns, email blasts, social media ads | Personalized offers, lounge access, priority boarding, premium branding |
-| ** Retention** | Win-back programs, discount vouchers for inactive users | Double miles, status protection, exclusive rewards |
-| ** Product** | Economy bundles (ticket + baggage + meals) | Free rescheduling, airport transfers, premium services |
-| ** Partnership** | E-commerce, retail banks (0% installments), travel platforms | 5-star hotels, premium credit cards, luxury car rentals |
+| **Marketing** | Flash sales, discount campaigns, email blasts, social media ads | Personalized offers, lounge access, priority boarding, premium branding |
+| **Retention** | Win-back programs, discount vouchers for inactive users | Double miles, status protection, exclusive rewards |
+| **Product** | Economy bundles (ticket + baggage + meals) | Free rescheduling, airport transfers, premium services |
+| **Partnership** | E-commerce, retail banks (0% installments), travel platforms | 5-star hotels, premium credit cards, luxury car rentals |
 
 ### Actionable Insights
 
@@ -227,7 +227,7 @@ jupyter notebook Airline_Customer_Segmentation.ipynb
 
 Or open directly in **Google Colab**:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/airline-customer-segmentation-kmeans/blob/main/Airline_Customer_Segmentation.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/151FJXABBF8-VCmM9kxSaPckUloX4tx4T?usp=sharing)
 
 ---
 
