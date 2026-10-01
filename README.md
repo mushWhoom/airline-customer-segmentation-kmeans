@@ -1,13 +1,13 @@
 # airline-customer-segmentation-kmeans
 Airline customer segmentation using K-Means clustering to identify churn risk and loyalty segments. Includes EDA, feature engineering, model evaluation, and business recommendations.
 
-# ✈️ Airline Customer Segmentation & Churn Risk Analysis with K-Means
+# Airline Customer Segmentation & Churn Risk Analysis with K-Means
 
 > Customer segmentation of airline passengers using **K-Means Clustering** to identify **churn risk** and **loyalty segments**, with actionable business recommendations for marketing, retention, and service development.
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [Project Overview](#-project-overview)
 - [Dataset](#-dataset)
@@ -23,7 +23,7 @@ Airline customer segmentation using K-Means clustering to identify churn risk an
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project performs **customer segmentation** on an airline passenger dataset using **K-Means Clustering** — an unsupervised machine learning algorithm. The goal is to identify distinct groups of customers based on their flight behavior, loyalty, and engagement, and to provide **data-driven business recommendations** for targeted marketing and customer retention.
 
@@ -40,18 +40,18 @@ The analysis follows the **LRFM framework**:
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **File:** `flight.csv`
 - **Total Records:** 62,988 rows
 - **Total Features:** 16 (after preprocessing)
 - **Original Columns:** `FFP_DATE`, `FIRST_FLIGHT_DATE`, `LOAD_TIME`, `FFP_TIER`, `AGE`, `FLIGHT_COUNT`, `BP_SUM`, `SUM_YR_1`, `SUM_YR_2`, `SEG_KM_SUM`, `LAST_TO_END`, `AVG_INTERVAL`, `MAX_INTERVAL`, `EXCHANGE_COUNT`, `avg_discount`, `Points_Sum`, `Point_NotFlight`, `GENDER`, `WORK_CITY`, `WORK_PROVINCE`, `WORK_COUNTRY`
 
-> ⚠️ **Note:** The dataset is **not included** in this repository due to size limitations. Place your own `flight.csv` in the project root before running the notebook.
+> **Note:** The dataset is **not included** in this repository due to size limitations. Place your own `flight.csv` in the project root before running the notebook.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Tools |
 |---|---|
@@ -64,7 +64,7 @@ The analysis follows the **LRFM framework**:
 
 ---
 
-## 🔍 Methodology
+## Methodology
 
 The project is structured into 8 major stages:
 
@@ -115,11 +115,11 @@ Evaluated `k = 2` to `k = 10` using three metrics:
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 The clustering produced **two distinct customer segments**:
 
-### 🔵 Cluster 0: "The Occasional Travelers" (Mass Customers) — ~85%
+### Cluster 0: "The Occasional Travelers" (Mass Customers) — ~85%
 
 | Metric | Value |
 |---|---|
@@ -132,7 +132,7 @@ The clustering produced **two distinct customer segments**:
 
 **→ High churn risk, price-sensitive, seasonal travelers.**
 
-### 🟢 Cluster 1: "The Frequent Flyers" (Elite/VIP Customers) — ~15%
+### Cluster 1: "The Frequent Flyers" (Elite/VIP Customers) — ~15%
 
 | Metric | Value |
 |---|---|
@@ -145,7 +145,7 @@ The clustering produced **two distinct customer segments**:
 
 **→ Primary revenue contributors, loyal, active, engaged.**
 
-### 🏆 Model Evaluation Metrics
+### Model Evaluation Metrics
 
 | Metric | Value | Interpretation |
 |---|---|---|
@@ -155,18 +155,18 @@ The clustering produced **two distinct customer segments**:
 
 ---
 
-## 💼 Business Recommendations
+## Business Recommendations
 
 Based on the segment characteristics, the following strategies are recommended:
 
 | Aspect | Cluster 0 (Mass) | Cluster 1 (Elite) |
 |---|---|---|
-| **🎯 Marketing** | Flash sales, discount campaigns, email blasts, social media ads | Personalized offers, lounge access, priority boarding, premium branding |
-| **🔄 Retention** | Win-back programs, discount vouchers for inactive users | Double miles, status protection, exclusive rewards |
-| **🛠️ Product** | Economy bundles (ticket + baggage + meals) | Free rescheduling, airport transfers, premium services |
-| **🤝 Partnership** | E-commerce, retail banks (0% installments), travel platforms | 5-star hotels, premium credit cards, luxury car rentals |
+| ** Marketing** | Flash sales, discount campaigns, email blasts, social media ads | Personalized offers, lounge access, priority boarding, premium branding |
+| ** Retention** | Win-back programs, discount vouchers for inactive users | Double miles, status protection, exclusive rewards |
+| ** Product** | Economy bundles (ticket + baggage + meals) | Free rescheduling, airport transfers, premium services |
+| ** Partnership** | E-commerce, retail banks (0% installments), travel platforms | 5-star hotels, premium credit cards, luxury car rentals |
 
-### 🎯 Actionable Insights
+### Actionable Insights
 
 1. **Re-engage Cluster 0** with targeted win-back campaigns — they represent 85% of the customer base but show strong churn signals.
 2. **Retain Cluster 1** with VIP treatment — they contribute disproportionately to revenue.
@@ -175,7 +175,7 @@ Based on the segment characteristics, the following strategies are recommended:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 airline-customer-segmentation-kmeans/
@@ -199,7 +199,7 @@ airline-customer-segmentation-kmeans/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone the repository
 ```bash
@@ -231,7 +231,7 @@ Or open directly in **Google Colab**:
 
 ---
 
-## 📝 Requirements
+## Requirements
 
 ```txt
 pandas>=1.3.0
@@ -244,7 +244,7 @@ jupyter>=1.0.0
 
 ---
 
-## 🧠 Reflection
+## Reflection
 
 ### Why is preprocessing + EDA essential before clustering?
 
@@ -269,36 +269,36 @@ Clustering transforms raw customer data into **actionable segments**. Instead of
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - Dataset provided as part of an academic data science assignment.
 - Inspired by real-world airline loyalty programs and churn analysis frameworks.
-- Built with ❤️ using Google Colab.
+- Built with using Google Colab.
 
 ---
 
-## 👤 Author
+## Author
 
 **Elmira Muntaz**
 
-- 📧 Email: [elmuntazzz@gmail.com](mailto:elmuntazzz@gmail.com)
-- 🐙 GitHub: [@elmuntazzz](https://github.com/elmuntazzz)
-- 💼 LinkedIn: [Elmira Muntaz](https://linkedin.com/in/your-profile)
+- Email: [elmuntazzz@gmail.com](mailto:elmuntazzz@gmail.com)
+- GitHub: [@elmuntazzz](https://github.com/elmuntazzz)
+- LinkedIn: [Elmira Muntaz](https://linkedin.com/in/your-profile)
 
 ---
 
-## ⭐ If you found this project helpful, please give it a star!
+## If you found this project helpful, please give it a star!
 
 [![Star this repo](https://img.shields.io/github/stars/your-username/airline-customer-segmentation-kmeans?style=social)](https://github.com/your-username/airline-customer-segmentation-kmeans)
 
 ---
 
 <p align="center">
-  <i>Made with 🐍 Python & ☕ Coffee</i>
+  <i>Made with Python & Coffee</i>
 </p>
